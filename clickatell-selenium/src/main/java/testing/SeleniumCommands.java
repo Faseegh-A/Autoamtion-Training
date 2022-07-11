@@ -23,12 +23,12 @@ public class SeleniumCommands {
     }
 
     public WebElement findAnElement(By by){
-        WebDriverWait wait = new WebDriverWait(_driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(_driver, Duration.ofSeconds(10));
         return wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
     public List<WebElement> findManyElements(By by){
-        WebDriverWait wait = new WebDriverWait(_driver, Duration.ofSeconds(5));
+        WebDriverWait wait = new WebDriverWait(_driver, Duration.ofSeconds(10));
         return (List<WebElement>) wait.until(ExpectedConditions.presenceOfElementLocated(by));
     }
 
