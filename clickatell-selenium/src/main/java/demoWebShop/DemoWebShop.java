@@ -3,7 +3,6 @@ package demoWebShop;
 import demoWebShop.pages.General;
 import demoWebShop.pages.LoginPage;
 
-import demoWebShop.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 
 public class DemoWebShop {
